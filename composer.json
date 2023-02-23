@@ -1,0 +1,22 @@
+{
+    "name": "badjacky/laravel-settings",
+    "description": "Laravel-settings",
+    "type": "library",
+    "require": {
+        "illuminate/database": "*",
+        "illuminate/cache": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Badjacky\\LaravelSettings\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jacky Chen",
+            "email": "zhangqi.chen.cn@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
